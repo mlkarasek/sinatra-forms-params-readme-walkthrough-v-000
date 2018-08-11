@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/food' do 
+    erb ;food 
   end
 
   post '/food' do
